@@ -26,11 +26,11 @@ Inspirada en el universo nórdico y el personaje Loki, la librería incorpora co
 ## 🚀 ¿Cómo usar Lokistyle?
 
 ### 1. Descarga
-
 Puedes descargar el archivo CSS compilado desde el repositorio, carpeta `/dist`:
 
 ```html
 <link rel="stylesheet" href="ruta-a-tu-libreria/lokistyle.css">
+
 
 
 Uso básico
