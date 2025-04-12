@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-
+>>>>>>> 
 # 🔮 Lokistyle CSS
 
 **Lokistyle** es una librería CSS inspirada en el dios nórdico **Loki**, símbolo del misterio, la transformación y el caos elegante. Esta herramienta ha sido diseñada con un enfoque moderno y creativo para facilitar el diseño de interfaces web responsivas, estilizadas y funcionales.
@@ -48,25 +47,14 @@ Inspirada en el universo nórdico y el personaje Loki, la librería incorpora co
 ## 🚀 ¿Cómo usar Lokistyle?
 
 ### 1. Descarga
-<<<<<<< HEAD
 
 Descarga el archivo CSS compilado desde la carpeta `/dist` o cópialo desde GitHub Pages:
 
 ```html
 <link rel="stylesheet" href="dist/lokistyle.css">
 ```
-
+---
 ### 2. Uso básico
-
-```html
-=======
-Puedes descargar el archivo CSS compilado desde el repositorio, carpeta `/dist`:
-
-```html
-<link rel="stylesheet" href="ruta-a-tu-libreria/lokistyle.css">
-
-
-
 Uso básico
 >>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
 <div class="row">
@@ -153,6 +141,7 @@ Este proyecto ha sido desarrollado con fines educativos para el curso de Herrami
 
 📦 Containers: para layouts estructurados.
 
+---
 
 🧰 Clases utilitarias
 Texto: tamaño, color, grosor, tipo, transformación (text-dorado, text-lg, text-bold)
@@ -167,12 +156,14 @@ Posición y display: hidden, block, flex, position-relative
 
 Fondos: bg-verde, bg-oscuro, bg-lima, bg-dorado
 
+---
 
 🌐 Documentación oficial
 Consulta la documentación completa en:
 
 🔗 https://victorg14.github.io/lokistyle-css
 
+---
 
 👥 Integrantes del grupo
 Jasson Amílcar Sánchez Pérez
@@ -183,10 +174,14 @@ Francisco Natanael Yanes Martínez
 
 Carlos Alejandro Barrientos Lapa
 
+---
+
 📌 Versión del proyecto
 v1.0.0 – Primera versión de lanzamiento.
+
+---
 
 💬 Licencia
 Este proyecto ha sido desarrollado con fines educativos para el curso de Herramientas de Productividad. Uso libre con fines académicos.
 
->>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
+>>>>>>> 
