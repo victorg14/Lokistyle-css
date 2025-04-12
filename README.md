@@ -1,4 +1,4 @@
->>>>>>> 
+
 # 🔮 Lokistyle CSS
 
 **Lokistyle** es una librería CSS inspirada en el dios nórdico **Loki**, símbolo del misterio, la transformación y el caos elegante. Esta herramienta ha sido diseñada con un enfoque moderno y creativo para facilitar el diseño de interfaces web responsivas, estilizadas y funcionales.
@@ -183,5 +183,3 @@ v1.0.0 – Primera versión de lanzamiento.
 
 💬 Licencia
 Este proyecto ha sido desarrollado con fines educativos para el curso de Herramientas de Productividad. Uso libre con fines académicos.
-
->>>>>>> 
