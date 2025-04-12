@@ -65,7 +65,7 @@ Uso básico
     </div>
   </div>
 </div>
-<<<<<<< HEAD
+
 ```
 
 ---
