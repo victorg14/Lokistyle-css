@@ -27,7 +27,6 @@ Inspirada en el universo nórdico y el personaje Loki, la librería incorpora co
 | Blanco humo        | `#F5F5F5`  | Fondo general               |
 | Verde lima suave   | `#88C057`  | Alertas de éxito            |
 | Rojo vino          | `#8B0000`  | Alertas de peligro/adverso |
-=======
 
 ---
 
