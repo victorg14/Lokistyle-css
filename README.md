@@ -10,7 +10,7 @@
 
 
 Inspirada en **Loki**, figura enigmática y poderosa de la mitología nórdica, esta librería busca reflejar una estética mística, oscura y elegante. Los colores, nombres de clases y componentes están alineados con esta inspiración, brindando identidad visual a cada elemento.
-=======
+
 Inspirada en el universo nórdico y el personaje Loki, la librería incorpora colores, nombres de clases y estilos que evocan misterio, magia y elegancia.
 
 
