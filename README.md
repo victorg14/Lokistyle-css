@@ -6,23 +6,23 @@
 # 🔮 Lokistyle CSS
 
 **Lokistyle** es una librería de estilos CSS inspirada en el dios del engaño, Loki. Diseñada para aportar una estética elegante, mística y poderosa a tus proyectos web, esta librería cuenta con componentes reutilizables, diseño responsive, clases utilitarias, y un sistema de grid propio para facilitar la maquetación.
->>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
+
 
 ---
 
 ## 🧠 Temática
 
-<<<<<<< HEAD
+
 Inspirada en **Loki**, figura enigmática y poderosa de la mitología nórdica, esta librería busca reflejar una estética mística, oscura y elegante. Los colores, nombres de clases y componentes están alineados con esta inspiración, brindando identidad visual a cada elemento.
 =======
 Inspirada en el universo nórdico y el personaje Loki, la librería incorpora colores, nombres de clases y estilos que evocan misterio, magia y elegancia.
->>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
+
 
 ---
 
 ## 🎨 Paleta de colores
 
-<<<<<<< HEAD
+
 | Nombre             | Código HEX | Uso sugerido                |
 |-------------------|------------|-----------------------------|
 | Verde oscuro       | `#1E3932`  | Color principal             |
@@ -40,7 +40,7 @@ Inspirada en el universo nórdico y el personaje Loki, la librería incorpora co
 | Blanco humo       | `#F5F5F5`  | Fondo claro general         |
 | Verde lima suave  | `#88C057`  | Éxito                       |
 | Rojo vino         | `#8B0000`  | Advertencias / peligro      |
->>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
+
 
 ---
 
@@ -98,8 +98,8 @@ Uso básico
 
 Consulta la documentación completa en:
 
-🔗 **[https://usuario.github.io/lokistyle-css](https://usuario.github.io/lokistyle-css)**  
-*(reemplaza “usuario” por el nombre de usuario del repositorio)*
+🔗 **[https://victorg14.github.io/lokistyle-css](https://usuario.github.io/lokistyle-css)**  
+
 
 ---
 
