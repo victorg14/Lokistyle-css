@@ -28,15 +28,6 @@ Inspirada en el universo nórdico y el personaje Loki, la librería incorpora co
 | Verde lima suave   | `#88C057`  | Alertas de éxito            |
 | Rojo vino          | `#8B0000`  | Alertas de peligro/adverso |
 =======
-| Nombre            | Código HEX | Uso                         |
-|------------------|------------|-----------------------------|
-| Verde oscuro      | `#1E3932`  | Color principal             |
-| Dorado            | `#D4AF37`  | Botones, énfasis            |
-| Gris oscuro       | `#2C2C2C`  | Fondo alternativo o texto   |
-| Blanco humo       | `#F5F5F5`  | Fondo claro general         |
-| Verde lima suave  | `#88C057`  | Éxito                       |
-| Rojo vino         | `#8B0000`  | Advertencias / peligro      |
-
 
 ---
 
@@ -51,8 +42,8 @@ Descarga el archivo CSS compilado desde la carpeta `/dist` o cópialo desde GitH
 ```
 ---
 ### 2. Uso básico
-Uso básico
->>>>>>> f0c04eb2d91b83bf86e1455571b10cbbe0b1474d
+
+```
 <div class="row">
   <div class="col-6">
     <div class="card-asgard">
