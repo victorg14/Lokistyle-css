@@ -1,0 +1,63 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $black-loki;
+  padding: 1rem 2rem;
+  color: $gold-loki;
+  font-family: $font-principal;
+  box-shadow: $shadow-default;
+  @include transition;
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $gold-loki;
+    text-decoration: none;
+
+    &:hover {
+      color: $green-loki;
+    }
+  }
+
+  .navbar-menu {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: $white-smoke;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        color: $green-loki;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: $gold-loki;
+    font-size: 1.5rem;
+  }
+
+  @include responsive(md) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .navbar-menu {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .navbar-toggle {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+[class^=col-] {
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-sm {
+  max-width: 540px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-loki {
+  background-color: #3A9A5B;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  color: #F5F5F5;
+}
+
+.btn {
+  font-family: "Cinzel", serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn--green {
+  background-color: #3A9A5B;
+  color: white;
+}
+.btn--gold {
+  background-color: #C8B46D;
+  color: #1C1C1C;
+}
+.btn--dark {
+  background-color: #1C1C1C;
+  color: #C8B46D;
+}
+.btn--outline {
+  background: transparent;
+  border: 2px solid #C8B46D;
+  color: #C8B46D;
+}
+.btn--sm {
+  font-size: 0.8rem;
+}
+.btn--md {
+  font-size: 1rem;
+}
+.btn--lg {
+  font-size: 1.2rem;
+}
+
+.alert {
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+.alert--loki {
+  background-color: #3A9A5B;
+}
+.alert--gold {
+  background-color: #C8B46D;
+  color: #1C1C1C;
+}
+.alert--dark {
+  background-color: #1C1C1C;
+}
+.alert--danger {
+  background-color: #c0392b;
+}
+.alert--success {
+  background-color: #27ae60;
+}
+.alert--info {
+  background-color: #2980b9;
+}
+
+.card {
+  background-color: #F5F5F5;
+  border: 1px solid #5C5C5C;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  font-family: "Cinzel", serif;
+  color: #1C1C1C;
+  transition: all 0.3s ease-in-out;
+}
+.card--loki {
+  background: linear-gradient(145deg, #3A9A5B, #C8B46D);
+  color: white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
+}
+.card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #C8B46D;
+}
+.card-body {
+  font-size: 1rem;
+}
+.card-footer {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #C8B46D;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #5C5C5C;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #F5F5F5;
+  color: #1C1C1C;
+  font-family: "Cinzel", serif;
+  transition: all 0.3s ease-in-out;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3A9A5B;
+  box-shadow: 0 0 0 0.2rem rgba(58, 154, 91, 0.25);
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-control-error {
+  border-color: red;
+  background-color: #ffe5e5;
+}
+
+.form-control-success {
+  border-color: #3A9A5B;
+  background-color: #e9f9f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C1C1C;
+  padding: 1rem 2rem;
+  color: #C8B46D;
+  font-family: "Cinzel", serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #C8B46D;
+  text-decoration: none;
+}
+.navbar .navbar-brand:hover {
+  color: #3A9A5B;
+}
+.navbar .navbar-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar .navbar-menu a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .navbar-menu a:hover {
+  color: #3A9A5B;
+}
+.navbar .navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #C8B46D;
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .navbar .navbar-toggle {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=styleLoki.css.map */

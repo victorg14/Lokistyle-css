@@ -1,0 +1,47 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+// Contenedor base
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include responsive(md) {
+    max-width: 720px;
+  }
+
+  @include responsive(lg) {
+    max-width: 960px;
+  }
+
+  @include responsive(xl) {
+    max-width: 1140px;
+  }
+}
+
+// Contenedor fluido (full width)
+.container-fluid {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+// Contenedor pequeño
+.container-sm {
+  max-width: 540px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+// Contenedor con sombra Loki
+.container-loki {
+  background-color: $green-loki;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: $shadow-default;
+  color: $white-smoke;
+}
