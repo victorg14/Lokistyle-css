@@ -110,7 +110,7 @@ Uso básico
 
 Consulta la documentación completa en:
 
-🔗 **[https://usuario.github.io/lokistyle-css](https://usuario.github.io/lokistyle-css)**  
+🔗 **[https://usuario.github.io/lokistyle-css](https://victorg14.github.io/Lokistyle-css/)**  
 *(reemplaza “usuario” por el nombre de usuario del repositorio)*
 
 ---
