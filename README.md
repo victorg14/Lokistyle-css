@@ -3,7 +3,7 @@ Libreria CSS inspirada en Loki
 ![Loki Laufeyson Color Palette - color-hex com (1)](https://github.com/user-attachments/assets/e223e67a-8f0b-47f6-9e11-2abc6b1c64b8)
 
 
---
+---
 prueba ed color
 
 <table class="table">
@@ -37,4 +37,7 @@ prueba ed color
         <td><a href="/color/2f352c" title="#2f352c color">#2f352c</a></td>
         <td>(47,53,44)</td>
     </tr>
+        
 </tbody></table>
+
+-----
