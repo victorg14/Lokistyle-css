@@ -1,0 +1,54 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: $gold-loki;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid $gray-loki;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: $white-smoke;
+  color: $black-loki;
+  font-family: $font-principal;
+  @include transition;
+
+  &:focus {
+    outline: none;
+    border-color: $green-loki;
+    box-shadow: 0 0 0 0.2rem rgba(58, 154, 91, 0.25); // sombra verde Loki
+  }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-control-error {
+  border-color: red;
+  background-color: #ffe5e5;
+}
+
+.form-control-success {
+  border-color: $green-loki;
+  background-color: #e9f9f0;
+}

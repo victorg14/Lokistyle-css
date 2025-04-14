@@ -1,0 +1,37 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+.btn {
+    font-family: $font-principal;
+    padding: $spacing-sm $spacing-md;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    @include transition;
+  
+    &--green {
+      background-color: $green-loki;
+      color: white;
+    }
+  
+    &--gold {
+      background-color: $gold-loki;
+      color: $black-loki;
+    }
+  
+    &--dark {
+      background-color: $black-loki;
+      color: $gold-loki;
+    }
+  
+    &--outline {
+      background: transparent;
+      border: 2px solid $gold-loki;
+      color: $gold-loki;
+    }
+  
+    &--sm { font-size: 0.8rem; }
+    &--md { font-size: 1rem; }
+    &--lg { font-size: 1.2rem; }
+  }
+  

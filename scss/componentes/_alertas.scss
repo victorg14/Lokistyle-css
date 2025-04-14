@@ -1,0 +1,38 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+.alert {
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-family: $font-principal;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+  box-shadow: $shadow-default;
+  @include transition;
+
+  &--loki {
+    background-color: $green-loki;
+  }
+
+  &--gold {
+    background-color: $gold-loki;
+    color: $black-loki;
+  }
+
+  &--dark {
+    background-color: $black-loki;
+  }
+
+  &--danger {
+    background-color: #c0392b;
+  }
+
+  &--success {
+    background-color: #27ae60;
+  }
+
+  &--info {
+    background-color: #2980b9;
+  }
+}

@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="scss/styleLoki.css">
 </head>
+
 <body>
     <h1>Pagina principal de Libreria Lokistyle-CSS</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">LokiCSS</a>
+        <div class="navbar-menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#componentes">Componentes</a>
+            <a href="#documentacion">Docs</a>
+        </div>
+    </nav>
+
+    <!-- Alertas -->
+    <section style="margin-top: 2rem;">
+        <div class="alert alert--loki">¡Hechizo lanzado correctamente!</div>
+        <div class="alert alert--gold">Aviso dorado: Poder activado.</div>
+        <div class="alert alert--danger">¡Error! Magia mal invocada.</div>
+        <div class="alert alert--success">Misión completada con éxito.</div>
+    </section>
+
+    <!-- Tarjeta -->
+    <section style="margin-top: 2rem;">
+        <div class="card card--loki">
+            <div class="card-header">Bienvenido a LokiCSS</div>
+            <div class="card-body">
+                Esta tarjeta está diseñada con la esencia del dios del engaño. Usa este espacio para mostrar contenido
+                importante.
+            </div>
+            <div class="card-footer">
+                <button class="btn btn--gold btn--sm">Más info</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section style="margin-top: 2rem;">
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+            </div>
+
+            <button class="btn btn--green btn--md" type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Botones -->
+    <section style="margin-top: 2rem;">
+        <h3>Botones</h3>
+        <button class="btn btn--green btn--sm">Verde Pequeño</button>
+        <button class="btn btn--gold btn--md">Dorado Medio</button>
+        <button class="btn btn--dark btn--lg">Oscuro Grande</button>
+        <button class="btn btn--outline btn--md">Outline</button>
+    </section>
+
 </body>
+
 </html>

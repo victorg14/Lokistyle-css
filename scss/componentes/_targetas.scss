@@ -1,0 +1,35 @@
+@use "../base/_variables" as *;
+@use "../base/_mixins" as *;
+
+.card {
+  background-color: $white-smoke;
+  border: 1px solid $gray-loki;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: $shadow-default;
+  font-family: $font-principal;
+  color: $black-loki;
+  @include transition;
+
+  &--loki {
+    background: linear-gradient(145deg, $green-loki, $gold-loki);
+    color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
+  }
+
+  &-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: $gold-loki;
+  }
+
+  &-body {
+    font-size: 1rem;
+  }
+
+  &-footer {
+    margin-top: 1.5rem;
+    text-align: right;
+  }
+}
