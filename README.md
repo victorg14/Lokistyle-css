@@ -8,7 +8,7 @@ prueba ed color
 
 | Color | Hex | RGB |
 |-------|-----|-----|
-| ![#55863f](https://via.placeholder.com/15/55863f/000000?text=+) `#55863f` | (85,134,63) |
+| (https://www.colorhexa.com/55863f.png) `#55863f` | (85,134,63) |
 | ![#0f4421](https://via.placeholder.com/15/0f4421/000000?text=+) `#0f4421` | (15,68,33) |
 | ![#112d0f](https://via.placeholder.com/15/112d0f/000000?text=+) `#112d0f` | (17,45,15) |
 | ![#d3b616](https://via.placeholder.com/15/d3b616/000000?text=+) `#d3b616` | (211,182,22) |
